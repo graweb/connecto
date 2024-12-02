@@ -1,0 +1,26 @@
+{
+    "name": "graweb1/connecto",
+    "description": "Database manager",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Graweb1\\Connecto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Grativol",
+            "email": "graweb1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Graweb1\\Connecto\\ConnectoServiceProvider"
+            ]
+        }
+    }
+}
